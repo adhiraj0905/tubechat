@@ -1,0 +1,18 @@
+# Dependency folders
+# These are installed by 'npm install' so we don't need to back them up
+/node_modules
+/client/node_modules
+/server/node_modules
+
+# Vite build output
+# This is the 'built' code, not the source code
+/client/dist
+
+# Environment files
+# These often contain secret API keys
+.env
+.env.*
+/client/.env
+/client/.env.*
+/server/.env
+/server/.env.*
